@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37638FE128B808560064F3A6 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37638FE028B808560064F3A6 /* ExpenseView.swift */; };
+		37638FE328B8093E0064F3A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37638FE228B8093E0064F3A6 /* HomeView.swift */; };
+		37638FE528B809560064F3A6 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37638FE428B809560064F3A6 /* ExpensesView.swift */; };
+		37638FE728B809690064F3A6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37638FE628B809690064F3A6 /* AddView.swift */; };
 		377A8C8128B725000030387B /* BetterTogetherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A8C8028B725000030387B /* BetterTogetherApp.swift */; };
 		377A8C8328B725000030387B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377A8C8228B725000030387B /* ContentView.swift */; };
 		377A8C8528B725050030387B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377A8C8428B725050030387B /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37638FE028B808560064F3A6 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		37638FE228B8093E0064F3A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		37638FE428B809560064F3A6 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		37638FE628B809690064F3A6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		377A8C7D28B725000030387B /* BetterTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377A8C8028B725000030387B /* BetterTogetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterTogetherApp.swift; sourceTree = "<group>"; };
 		377A8C8228B725000030387B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +106,10 @@
 				377A8C8228B725000030387B /* ContentView.swift */,
 				377A8C8428B725050030387B /* Assets.xcassets */,
 				377A8C8628B725050030387B /* Preview Content */,
+				37638FE028B808560064F3A6 /* ExpenseView.swift */,
+				37638FE228B8093E0064F3A6 /* HomeView.swift */,
+				37638FE428B809560064F3A6 /* ExpensesView.swift */,
+				37638FE628B809690064F3A6 /* AddView.swift */,
 			);
 			path = BetterTogether;
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				377A8C8328B725000030387B /* ContentView.swift in Sources */,
+				37638FE328B8093E0064F3A6 /* HomeView.swift in Sources */,
+				37638FE728B809690064F3A6 /* AddView.swift in Sources */,
 				377A8C8128B725000030387B /* BetterTogetherApp.swift in Sources */,
+				37638FE528B809560064F3A6 /* ExpensesView.swift in Sources */,
+				37638FE128B808560064F3A6 /* ExpenseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
